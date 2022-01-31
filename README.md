@@ -1,2 +1,2 @@
 # ariel-parallax
-ссылка на сайт   
+ссылка на сайт   https://tatiana-nikonova.github.io/ariel-parallax/
