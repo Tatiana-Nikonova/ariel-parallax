@@ -1,0 +1,44 @@
+body {
+	background: #000000;	
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+	color: white;
+}
+
+h1, p {
+	font-family: 'Roboto Slab', serif;   	
+}
+
+h1 {
+	text-shadow:3px 3px #333;
+	
+	text-align: center;
+}
+
+.text {
+	margin: 0 auto;
+	width: 900px;
+
+}
+p {
+	font: 20px 400  #333;
+	text-align: justify;
+  	text-indent: 25px;  	
+}
+
+span {
+	color: rgb(35, 35, 109);
+	font-style: italic;
+}
+
+.layer img {
+	width: 100%;
+	min-height: 500px;
+}
+
+div p {
+	width: 900px;
+	text-align: center;
+}

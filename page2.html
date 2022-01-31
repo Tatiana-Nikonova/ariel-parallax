@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css p2.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<title></title>
+
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div>
+				<h1>Горизонтальный параллакс</h1>
+				<ul class="items" id="scene">
+					<li class="layer" data-depth="0.00"><img src="fon.jpg"></li>
+					<li class="layer" data-depth="0.10"><img src="ariel.png"></li>
+					<li class="layer" data-depth="0.40"><img src="last_fish.png"></li>	
+					<li class="layer" data-depth="2.00"><img src="first_fish.png"></li>
+				</ul>
+				<div class="text">
+					<p>Очень интересный параллакс с бесчисленными возможностями. </br> Дальние объекты движутся с меньшей  амплитудой. Создается объем картинки и движение. 
+					</p>
+				</div>
+			</div>
+		</header>
+	</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+	<script src="path/to/parallax.js"></script>
+
+	<script src="parallax.min.js"></script>
+	<script>
+		var scene = document.getElementById('scene');
+		var parallaxInstance = new Parallax(scene);
+	</script>
+</body>
+</html>
